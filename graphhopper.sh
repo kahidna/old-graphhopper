@@ -1,4 +1,7 @@
 #!/bin/bash
+
+export JAVA_OPTS="-Xmx3000m
+
 (set -o igncr) 2>/dev/null && set -o igncr; # this comment is required for handling Windows cr/lf 
 # See StackOverflow answer http://stackoverflow.com/a/14607651
 
