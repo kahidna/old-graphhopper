@@ -1,3 +1,12 @@
+# Old version graphhopper
+Please keep in mind, this is obsolete version of graphhopper. I mirror this repository from the old one since I have script to deploy this graphhopper version, but no longer work at the new version.
+Also, this graphhopper service used by the developers on my company, only for routing requirement and its only needed on dev environment. So please, never use this graphhopper repo as your prod environment.   
+I'm not responsible if there is security breach, uncompatible version or etc, etc. For the deployment script, see deploy-graphhopper.sh, it will run under docker service.   
+
+About my custom script, those script will download maps in pbf format, download from geofabric. and also those script would upgrade memory allocation when deploy graphhopper. so please, if you conisder   
+using my script, take a look that first before you deploy it on your server. :)    
+
+
 # GraphHopper Routing Engine
 
 [![Build Status](https://secure.travis-ci.org/graphhopper/graphhopper.png?branch=master)](http://travis-ci.org/graphhopper/graphhopper)
