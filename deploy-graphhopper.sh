@@ -11,6 +11,7 @@
 # e.g add italy, then you should set "europe/italy", "asia/indonesia"
 # and if its a continent, you anly need named continent
 # e.g "europe", "asia", "africa"
+# and here is the list of continent : africa, antarctica, Asia, australia-oceania, central-america europe, north-america, south-america
 REGION=asia/indonesia
 
 # make sure RAID is working, because maps always spend many space
